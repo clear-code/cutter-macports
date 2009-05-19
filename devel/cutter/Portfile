@@ -1,0 +1,30 @@
+# $Id$
+
+PortSystem          1.0
+name                cutter
+version             1.0.6
+categories          devel
+maintainers         Kouhei Sutou
+description         A unit testing framefork for C
+long_description \
+   Cutter is a xUnit family Unit Testing Framework for C. \
+   It provides easy to write test API, useful output format for debugging \
+   and so on.
+
+platforms           darwin
+
+homepage            http://cutter.sourceforge.net/
+master_sites        sourceforge
+distname            cutter-${version}
+worksrcdir          ${distname}
+
+checksums           md5     e292d89db0f77371860d3121c21514c0 \
+                    sha1    598a41e802b227939d8527db5db87051436b246b \
+                    rmd160  2c713ee1090f91fbf86bead6e71c2ccc7ceaab70
+
+depends_lib         port:glib2 port:gtk-doc
+
+livecheck.check     regex
+livecheck.url       http://sourceforge.net/project/showfiles.php?group_id=32992&package_id=25133
+livecheck.regex     {cutter-([0-9.-]+)\.tar\.gz}
+
