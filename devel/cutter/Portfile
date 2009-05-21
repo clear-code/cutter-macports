@@ -2,7 +2,7 @@
 
 PortSystem          1.0
 name                cutter
-version             1.0.6
+version             1.0.7
 categories          devel
 maintainers         Kouhei Sutou
 description         A unit testing framefork for C
@@ -18,9 +18,9 @@ master_sites        sourceforge
 distname            cutter-${version}
 worksrcdir          ${distname}
 
-checksums           md5     e292d89db0f77371860d3121c21514c0 \
-                    sha1    598a41e802b227939d8527db5db87051436b246b \
-                    rmd160  2c713ee1090f91fbf86bead6e71c2ccc7ceaab70
+checksums           md5     3b5bf529f8e9104051496bde8e59723e \
+                    sha1    ebc3557ff96a0c620998a40ecad6872afde61464 \
+                    rmd160  c220915ac9e33b7cd375e29c33000ee064ea6b10
 
 depends_lib         port:glib2 port:gtk-doc
 
