@@ -22,7 +22,7 @@ checksums           md5     3b5bf529f8e9104051496bde8e59723e \
                     sha1    ebc3557ff96a0c620998a40ecad6872afde61464 \
                     rmd160  c220915ac9e33b7cd375e29c33000ee064ea6b10
 
-depends_lib         port:glib2 port:gtk-doc
+depends_lib         port:glib2 port:gtk-doc port:libsoup
 
 livecheck.check     regex
 livecheck.url       http://sourceforge.net/project/showfiles.php?group_id=32992&package_id=25133
