@@ -4,7 +4,7 @@ PortSystem          1.0
 name                cutter
 version             1.0.8
 categories          devel
-maintainers         Kouhei Sutou
+maintainers         kou@clear-code.com
 description         A unit testing framefork for C
 long_description \
    Cutter is a xUnit family Unit Testing Framework for C. \
@@ -12,6 +12,7 @@ long_description \
    and so on.
 
 platforms           darwin
+license             LGPLv3+
 
 homepage            http://cutter.sourceforge.net/
 master_sites        sourceforge
