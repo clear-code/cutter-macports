@@ -2,12 +2,12 @@
 
 PortSystem          1.0
 name                cutter
-version             1.0.9
+version             1.1.0
 categories          devel
 maintainers         kou@clear-code.com
-description         A unit testing framefork for C
+description         A unit testing framefork for C and C++
 long_description \
-   Cutter is a xUnit family Unit Testing Framework for C. \
+   Cutter is a xUnit family Unit Testing Framework for C and C++. \
    It provides easy to write test API, useful output format for debugging \
    and so on.
 
@@ -19,9 +19,9 @@ master_sites        sourceforge
 distname            cutter-${version}
 worksrcdir          ${distname}
 
-checksums           md5     389fc7e552d2f06493b61491902bc86e \
-                    sha1    0e9b57246bef0fb5bce70a1e74725adaa57f2ee9 \
-                    rmd160  ac76cced488e19b36d78ac85a65ebc64efc62415
+checksums           md5     8a46f68eb1928be30fd8e767f144f2e2 \
+                    sha1    2fec1c673af31527345bb9c0a52e02586e271b35 \
+                    rmd160  fb2402dfb1be68c7847ebf9455ce2cacb7fce849
 
 depends_lib         port:glib2 port:gtk-doc port:libsoup
 
