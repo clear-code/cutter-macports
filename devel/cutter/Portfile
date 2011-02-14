@@ -2,7 +2,7 @@
 
 PortSystem          1.0
 name                cutter
-version             1.1.6
+version             1.1.7
 categories          devel
 maintainers         kou@clear-code.com
 description         A unit testing framefork for C and C++
@@ -19,9 +19,9 @@ master_sites        sourceforge
 distname            cutter-${version}
 worksrcdir          ${distname}
 
-checksums           md5     7d57770b5647d404b907b39c2c2a0e88 \
-                    sha1    1c9ede3e88e1a227ed6bf2507dcb3193f11b1525 \
-                    rmd160  e5e1404071b3c2bbac23a969cd7772d1c9a28361
+checksums           md5     e752ad23ce08479e419015bea8031d76 \
+                    sha1    524b2538c2a5601a5514b416f4dd111ebe156685 \
+                    rmd160  e75869c945ae03b8e33630a81cc22d79ff1207f2
 
 depends_lib         port:glib2 port:gtk-doc port:libsoup
 
